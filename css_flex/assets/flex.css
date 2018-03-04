@@ -17,9 +17,16 @@ ul li a, figcaption a {
   color: inherit;
 }
 
+header {
+  display: flex;
+  justify-content: space-between
+
+}
+
+
 header > img {
   width: 100px;
-  float: left;
+  height: 100%;
 }
 
 .ingredients-list {
@@ -66,12 +73,17 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
-nav {
-    float: right;
+nav ul {
+    /* float: right; */
+    display: flex;
+
 }
 
+
 nav ul li {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+
 }
 
 nav ul li a {
@@ -109,4 +121,3 @@ textarea {
 label {
     display: block;
 }
-
